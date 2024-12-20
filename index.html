@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candle Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Candle Bliss</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h2>Brighten your world with our handmade candles</h2>
+            <button onclick="scrollToSection('products')">Shop Now</button>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Candles</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="candle1.jpg" alt="Candle 1">
+                <h3>Lavender Bliss</h3>
+                <p>Relaxing lavender scent</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="candle2.jpg" alt="Candle 2">
+                <h3>Vanilla Dream</h3>
+                <p>Sweet vanilla fragrance</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="candle3.jpg" alt="Candle 3">
+                <h3>Citrus Burst</h3>
+                <p>Fresh citrus aroma</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Candle Bliss, we handcraft candles with the finest ingredients to create an ambiance of warmth and tranquility. Our passion is to fill your spaces with soothing fragrances that spark joy.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Candle Bliss. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
